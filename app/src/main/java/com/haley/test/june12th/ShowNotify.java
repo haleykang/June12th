@@ -10,9 +10,6 @@ import android.widget.Toast;
 
 public class ShowNotify extends Activity {
 
-    // 전역 함수
-    private Button showNotiStartBt;
-    private Button showNotiStopBt;
 
     // 재정의 함수
     @Override
@@ -57,7 +54,6 @@ public class ShowNotify extends Activity {
         });*/
 
 
-
     } // end of onCreate()
 
 
@@ -67,15 +63,14 @@ public class ShowNotify extends Activity {
         Intent intent = new Intent(ShowNotify.this, MyNotiService.class);
 
         switch(v.getId()) {
-            case R.id.show_noti_start_bt :
+            case R.id.show_noti_start_bt:
                 startService(intent);
                 break;
-            case R.id.stop_service_bt :
+            case R.id.stop_service_bt:
                 stopService(intent);
                 break;
         }
     }
-
 
 
     private void myLog(String ob) {

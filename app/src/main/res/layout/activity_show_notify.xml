@@ -12,18 +12,18 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:onClick="onClick"
         android:text="알림 창 출력(서비스 시작)"
-        android:textSize="13sp"
-        android:onClick="onClick"/>
+        android:textSize="13sp"/>
 
     <Button
         android:id="@+id/stop_service_bt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:onClick="onClick"
         android:text="알림 창 닫기(서비스 중지)"
-        android:textSize="13sp"
-        android:onClick="onClick"/>
+        android:textSize="13sp"/>
 
 
 </LinearLayout>

@@ -9,7 +9,6 @@ import android.os.IBinder;
 import android.os.Handler;
 // handleMessage() 함수에서 사용할 Message
 import android.os.Message;
-import android.support.annotation.IntDef;
 import android.support.v7.app.NotificationCompat;
 import android.app.Notification;
 import android.app.NotificationManager;
