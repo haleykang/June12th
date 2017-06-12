@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.haley.test.june12th.ShowNotify">
+
+    <Button
+        android:id="@+id/show_noti_start_bt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="알림 창 출력(서비스 시작)"
+        android:textSize="13sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/stop_service_bt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="알림 창 닫기(서비스 중지)"
+        android:textSize="13sp"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
